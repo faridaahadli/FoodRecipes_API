@@ -12,8 +12,8 @@ namespace Test_API.DB_Models
         public string Preparation { get; set; }
         public string Tools { get; set; }
         public string Ingredients { get; set; }
-        public int TypeId { get; set; }
-        public virtual Type Type { get; set; }
+        public int CategoryId { get; set; }
+        public virtual Category Category { get; set; }
         public int CuisineId { get; set; }
         public virtual Cuisine Cuisine { get; set; }
       
